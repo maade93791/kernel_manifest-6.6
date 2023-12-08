@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <remote  name="internal" fetch="https://googleplex-android.googlesource.com/" review="https://googleplex-android-review.googlesource.com/" />
   <default revision="main" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android-mainline" />
@@ -8,6 +9,8 @@
   <project path="build/kernel" name="kernel/build" groups="ddk" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="kleaf/bzlmod/bazel.MODULE" dest="MODULE.bazel" />
+    <linkfile src="kleaf/bzlmod/bzlmod.WORKSPACE" dest="WORKSPACE.bzlmod" />
   </project>
   <project path="common" name="kernel/common" revision="android-mainline" />
   <project path="kernel/common-patches" name="kernel/common-patches" >
@@ -36,6 +39,7 @@
   <project path="external/stardoc" name="platform/external/stardoc" groups="ddk" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="ddk" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" groups="ddk" remote="internal" revision="third-party-review" />
   <!-- implicit dep for bzlmod -->
   <project path="external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" groups="ddk" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk" />
