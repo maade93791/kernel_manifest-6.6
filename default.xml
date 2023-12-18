@@ -37,6 +37,7 @@
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="main" />
   <project path="external/dtc" name="platform/external/dtc" revision="main" />
+<<<<<<< HEAD   (b97f2a Merge "Add dependencies for libgbl bindgen target" into uefi)
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/googletest" name="platform/external/googletest" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" />
@@ -58,6 +59,18 @@
   <project path="external/rust/crates/zerocopy-derive" name="platform/external/rust/crates/zerocopy-derive" />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" />
+=======
+  <project path="external/open-dice" name="platform/external/open-dice" />
+  <project path="external/pigz" name="platform/external/pigz" />
+  <project path="external/python/absl-py" name="platform/external/python/absl-py" />
+  <project path="external/stardoc" name="platform/external/stardoc" />
+  <project path="external/zlib" name="platform/external/zlib" revision="main" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="u-boot" name="platform/external/u-boot" revision="main">
+    <linkfile src="build.config.constants" dest="common/build.config.constants" />
+    <linkfile src="device.bazelrc" dest="device.bazelrc" />
+  </project>
+>>>>>>> CHANGE (d16b9c Add zopfli and pigz repositories)
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     clone-depth="1" revision="u-boot-mainline" />
