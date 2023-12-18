@@ -38,4 +38,12 @@
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="ddk" />
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk"/>
+<<<<<<< HEAD   (2efd4a Drop dependency to platform/prebuilts/bazel)
+=======
+  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
+
+  <!-- dependencies used to build toolchain from sources -->
+  <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
+  <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
+>>>>>>> CHANGE (394b59 Add zopfli and pigz repositories)
 </manifest>
