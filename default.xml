@@ -40,6 +40,7 @@
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
 
   <!-- dependencies used to build toolchain from sources -->
+  <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
   <project path="external/pigz" name="platform/external/pigz" groups="ddk"/>
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
 </manifest>
