@@ -38,6 +38,8 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="main" />
   <project path="external/dtc" name="platform/external/dtc" revision="main" />
   <project path="external/elfutils" name="platform/external/elfutils" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="external/pigz" name="platform/external/pigz" />
   <project path="external/googletest" name="platform/external/googletest" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" />
   <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" />
