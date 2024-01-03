@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26be8b5d_1d18c106",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1961395
+      },
+      "writtenOn": "2024-01-03T18:17:30Z",
+      "side": 1,
+      "message": "nit:\n```\nBug: 243389125\nBug: 315488400\n```",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 1
+      },
+      "revId": "ff461a0676b12ee760fceebd43044b3f9579e01b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
