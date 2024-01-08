@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6123417_997e475e",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-01-08T14:05:00Z",
+      "side": 1,
+      "message": "If repo (and other TH tools) support XML comments, then this would be an excellent opportunity to make use of them :-)",
+      "revId": "f9e79fb1e1f189bc6dd8ce87c78178e254bc53a4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
