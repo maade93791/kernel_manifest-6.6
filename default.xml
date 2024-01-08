@@ -2,7 +2,7 @@
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="common-android14-6.1-2023-05-exp-release" remote="aosp" sync-j="4" />
 
-  <project path="build/kernel" name="kernel/build" revision="8b5f31adf9775bf1c075027d3922fdcb08c41328" upstream="common-android14-6.1-2023-05-exp-release">
+  <project path="build/kernel" name="kernel/build" revision="76a3011236261ce628176ac7876ba3663f34c940" upstream="common-android14-6.1-2023-05-exp-release">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
