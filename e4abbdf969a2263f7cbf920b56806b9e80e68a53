@@ -16,6 +16,29 @@
       "message": "commit message needs improvement.",
       "revId": "e4abbdf969a2263f7cbf920b56806b9e80e68a53",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "679e3417_18b1bb8f",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-01-08T14:08:30Z",
+      "side": 1,
+      "message": "I assume we use the \"bzlmod\" subdirectory only during the transition and then make it flat again? Even though, I could see how this makes the cleanup hard. Can we perhaps not introduce the subdirectory in the first place?",
+      "range": {
+        "startLine": 11,
+        "startChar": 25,
+        "endLine": 11,
+        "endChar": 44
+      },
+      "revId": "e4abbdf969a2263f7cbf920b56806b9e80e68a53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
