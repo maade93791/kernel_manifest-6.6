@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b2d0ba5_2814700b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-01-08T14:06:15Z",
+      "side": 1,
+      "message": "Please enrich the commit message to describe in more detail _what_ is done and especially also _why_ it is done.",
+      "revId": "0833c36acd7a21ae8a8f60dae39c15c86dda24de",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
