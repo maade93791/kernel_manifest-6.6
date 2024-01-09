@@ -22,6 +22,30 @@
       },
       "revId": "ff461a0676b12ee760fceebd43044b3f9579e01b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49666280_170a8aa4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-01-09T15:14:54Z",
+      "side": 1,
+      "message": "not really, the bugs you mentioned refer to pigz, pixz, etc. But all that is done here is to built another piece of toolchain from sources. I probably should open another bug to track this, though.",
+      "parentUuid": "26be8b5d_1d18c106",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 1
+      },
+      "revId": "ff461a0676b12ee760fceebd43044b3f9579e01b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
