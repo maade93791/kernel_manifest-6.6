@@ -52,6 +52,24 @@
       "parentUuid": "befccc98_429acee2",
       "revId": "f9e79fb1e1f189bc6dd8ce87c78178e254bc53a4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "82cf850a_3ea15970",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-01-10T23:39:36Z",
+      "side": 1,
+      "message": "I am pretty sure regular XML comments are fine in these manifests. I have used them before.\n\nI thought you were talking about having repo to parse these comments and behave differently 😊",
+      "parentUuid": "8a9da4e8_f92c7d89",
+      "revId": "f9e79fb1e1f189bc6dd8ce87c78178e254bc53a4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
