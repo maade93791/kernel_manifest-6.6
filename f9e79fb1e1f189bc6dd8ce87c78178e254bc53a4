@@ -16,6 +16,24 @@
       "message": "If repo (and other TH tools) support XML comments, then this would be an excellent opportunity to make use of them :-)",
       "revId": "f9e79fb1e1f189bc6dd8ce87c78178e254bc53a4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "befccc98_429acee2",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-01-10T21:55:46Z",
+      "side": 1,
+      "message": "What XML comment would you think TH tools should read here?",
+      "parentUuid": "c6123417_997e475e",
+      "revId": "f9e79fb1e1f189bc6dd8ce87c78178e254bc53a4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
