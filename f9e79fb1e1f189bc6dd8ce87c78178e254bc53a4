@@ -34,6 +34,24 @@
       "parentUuid": "c6123417_997e475e",
       "revId": "f9e79fb1e1f189bc6dd8ce87c78178e254bc53a4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a9da4e8_f92c7d89",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-01-10T23:28:59Z",
+      "side": 1,
+      "message": "I think it is a good idea to annotate this particular line:\n\n```\n\u003c!-- implicit dependency when switching to bzlmod --\u003e\n\u003cproject path\u003d\"external/bazelbuild-apple_support\" name\u003d\"platform/external/bazelbuild-apple_support\" groups\u003d\"ddk\" /\u003e\n```\n\nBut I do not know whether `repo` itself or whatever TH uses to read manifests have any issues with parsing this then.",
+      "parentUuid": "befccc98_429acee2",
+      "revId": "f9e79fb1e1f189bc6dd8ce87c78178e254bc53a4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
