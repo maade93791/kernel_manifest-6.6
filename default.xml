@@ -13,7 +13,10 @@
   <superproject name="kernel/superproject" remote="aosp" revision="u-boot-mainline"/>
   <contactinfo bugurl="go/repo-bug" />
 
-  <project path="bootable/libbootloader" name="platform/bootable/libbootloader" />
+  <project path="bootable/libbootloader" name="platform/bootable/libbootloader">
+    <linkfile src="." dest=".source_date_epoch_dir" />
+    <linkfile src="gbl/bazel.WORKSPACE" dest="WORKSPACE" />
+  </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
@@ -45,10 +48,6 @@
   <project path="external/rust/crates/zerocopy-derive" name="platform/external/rust/crates/zerocopy-derive" />
   <project path="external/swig" name="platform/external/swig" revision="main" />
   <project path="external/zlib" name="platform/external/zlib" revision="main" />
-  <project path="u-boot" name="platform/external/u-boot" revision="main">
-    <linkfile src="." dest=".source_date_epoch_dir" />
-    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
-  </project>
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     clone-depth="1" revision="u-boot-mainline" />
