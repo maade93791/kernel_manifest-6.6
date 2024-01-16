@@ -16,6 +16,24 @@
       "message": "Please enrich the commit message to describe in more detail _what_ is done and especially also _why_ it is done.",
       "revId": "0833c36acd7a21ae8a8f60dae39c15c86dda24de",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2a7fc53_6a3b76b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-01-16T19:09:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5b2d0ba5_2814700b",
+      "revId": "0833c36acd7a21ae8a8f60dae39c15c86dda24de",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
