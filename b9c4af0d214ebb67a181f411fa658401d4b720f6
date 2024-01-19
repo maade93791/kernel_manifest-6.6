@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58a82b17_a5d794f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-01-19T11:02:07Z",
+      "side": 1,
+      "message": "needs resolution of aosp/2863915",
+      "revId": "b9c4af0d214ebb67a181f411fa658401d4b720f6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
