@@ -16,6 +16,24 @@
       "message": "bazelbuild-rules_pkg",
       "revId": "1bf08dbbcf0d6de938ddb90efcea95bab0dd6f36",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbd35bf3_77af869e",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1990655
+      },
+      "writtenOn": "2024-01-19T00:43:42Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "7d1b397e_d3efc2fc",
+      "revId": "1bf08dbbcf0d6de938ddb90efcea95bab0dd6f36",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
