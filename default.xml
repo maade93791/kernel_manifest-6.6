@@ -5,7 +5,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="gs-android-gs-raviole-mainline" />
 
-  <project path="common" name="kernel/common" remote="aosp" revision="e0391abf71834a156e65fe188670a6d32d9a4141" />
+  <project path="common" name="kernel/common" remote="aosp" revision="cb4cf525e1279a8fed18e08c8c12b133f4e6733e" />
 
   <project path="private/google-modules/soc/gs" name="kernel/google-modules/raviole-device" >
     <linkfile src="build_slider.sh" dest="build_slider.sh" />
