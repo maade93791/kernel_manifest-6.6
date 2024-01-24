@@ -22,6 +22,30 @@
       },
       "revId": "626b44a6cfdec6c04d0839c560616932d43e24ea",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34b8a9a5_97c83018",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2024-01-24T21:45:45Z",
+      "side": 1,
+      "message": "Yes otherwise we have an empty arg `androidboot.vbmeta.device\u003dPARTUUID\u003d` on the command line. This is for being consistent with the current u-boot behavior. Since we have the code there, might as well enable it so that the code path is covered in the CI/CQ once we deploy it.",
+      "parentUuid": "41f2bc92_17997b7e",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 88
+      },
+      "revId": "626b44a6cfdec6c04d0839c560616932d43e24ea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
