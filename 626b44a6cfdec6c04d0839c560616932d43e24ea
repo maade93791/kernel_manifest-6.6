@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "41f2bc92_17997b7e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1078119
+      },
+      "writtenOn": "2024-01-24T21:39:34Z",
+      "side": 1,
+      "message": "We might not need this, it\u0027s only necessary if the kernel relies on libavb injecting some partition GUIDs into the kernel commandline. Fuchsia doesn\u0027t use this, and I think it might be deprecated and/or uncommon in Android nowadays? Could be wrong though.",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 88
+      },
+      "revId": "626b44a6cfdec6c04d0839c560616932d43e24ea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
