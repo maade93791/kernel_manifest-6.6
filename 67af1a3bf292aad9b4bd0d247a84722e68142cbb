@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0829d50_a4168304",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2024-01-24T21:38:50Z",
+      "side": 1,
+      "message": "keep in sync with uefi-gbl-mainline until u-boot-mainline gbl is taken off CI/CQ.",
+      "revId": "67af1a3bf292aad9b4bd0d247a84722e68142cbb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
