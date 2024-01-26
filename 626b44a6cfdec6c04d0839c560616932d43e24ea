@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bbe51ea_47ac0ef1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2024-01-26T23:15:32Z",
+      "side": 1,
+      "message": "Friendly ping. This is needed before https://r.android.com/2928338 can merge. Otherwise this branch will fail.",
+      "revId": "626b44a6cfdec6c04d0839c560616932d43e24ea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "41f2bc92_17997b7e",
