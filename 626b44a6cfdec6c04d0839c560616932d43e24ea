@@ -18,6 +18,23 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e431aeeb_87878d7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1078119
+      },
+      "writtenOn": "2024-01-26T23:27:17Z",
+      "side": 1,
+      "message": "Looks like I only have +1 capabilities here, not sure what controls that",
+      "revId": "626b44a6cfdec6c04d0839c560616932d43e24ea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "41f2bc92_17997b7e",
