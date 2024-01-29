@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="common-android14-6.1-2023-05-exp-release" remote="aosp" sync-j="4" />
+  <default revision="sparse-11304584-L61600030001642708" remote="aosp" sync-j="4" />
 
   <project path="build/kernel" name="kernel/build" revision="f29e2417ac1123b2eeaf8a684150a05a12334b02" upstream="common-android14-6.1-2023-05-exp-release">
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
@@ -8,7 +8,7 @@
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
   </project>
-  <project path="common" name="kernel/common" revision="6732714746ff0085f355c1fc82f5321f9fec60c9" upstream="common-android14-6.1-2023-05-exp-release" dest-branch="android14-6.1-2023-05-exp" />
+  <project path="common" name="kernel/common" revision="1555c210247e257a48bedb2be41891515e8075e2" upstream="common-android14-6.1-2023-05-exp-release" dest-branch="android14-6.1-2023-05-exp" />
   <project path="kernel/tests" name="kernel/tests" revision="daa62928ca38b5b6ba94df9355f8f0ab0d2aa552" upstream="common-android14-6.1-2023-05-exp-release" />
   <project path="kernel/configs" name="kernel/configs" revision="05458917bfa89c0213632b7b2b01729fe23fa4ac" upstream="common-android14-6.1-2023-05-exp-release" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="d3b0deb5f720416f2b1c985bf768b729ed4654e4" upstream="common-android14-6.1-2023-05-exp-release" dest-branch="android14-6.1" />
