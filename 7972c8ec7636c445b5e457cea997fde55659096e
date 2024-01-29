@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06a1d277_9beca6f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-01-29T11:20:57Z",
+      "side": 1,
+      "message": "Please ensure this change is announced in the newsletter.",
+      "revId": "7972c8ec7636c445b5e457cea997fde55659096e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f2552e55_671198ff",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-01-29T11:20:57Z",
+      "side": 1,
+      "message": "\"main\" is the default and the parameter should hence be omitted.\n```suggestion\n  \u003cproject path\u003d\"test/dittosuite\" name\u003d\"platform/test/dittosuite\" /\u003e\n```",
+      "range": {
+        "startLine": 57,
+        "startChar": 65,
+        "endLine": 57,
+        "endChar": 81
+      },
+      "revId": "7972c8ec7636c445b5e457cea997fde55659096e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
