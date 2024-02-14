@@ -20,7 +20,7 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="736295ae5de97967551ef96174d4c8a3eb11dd47" upstream="main-kernel" dest-branch="main-kernel" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="ffcc21293cbc8cfdf2d402e8f5b0647945e1dc73" upstream="main-kernel" dest-branch="main-kernel" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
