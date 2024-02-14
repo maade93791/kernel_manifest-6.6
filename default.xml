@@ -20,7 +20,10 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+<<<<<<< HEAD   (2b7585 Snap projects from 11445941)
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="ffcc21293cbc8cfdf2d402e8f5b0647945e1dc73" upstream="main-kernel" dest-branch="main-kernel" />
+=======
+>>>>>>> CHANGE (54fecd Revert "Map in Rust support")
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
@@ -29,7 +32,10 @@
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
+<<<<<<< HEAD   (2b7585 Snap projects from 11445941)
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" revision="bdd24099a80555ff8a4441e8bb47f4c7cfe413f8" upstream="main" dest-branch="main" />
+=======
+>>>>>>> CHANGE (54fecd Revert "Map in Rust support")
   <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
 </manifest>
