@@ -40,12 +40,15 @@
   <project path="external/rust/crates/hex" name="platform/external/rust/crates/hex" />
   <project path="external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" />
   <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" />
+  <project path="external/rust/crates/spin" name="platform/external/rust/crates/spin" />
+  <project path="external/rust/crates/static_assertions" name="platform/external/rust/crates/static_assertions" />
   <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" />
   <project path="external/rust/crates/tinyjson" name="platform/external/rust/crates/tinyjson" />
   <project path="external/rust/crates/unicode-ident" name="platform/external/rust/crates/unicode-ident" />
   <project path="external/rust/crates/uuid" name="platform/external/rust/crates/uuid" />
   <project path="external/rust/crates/zerocopy" name="platform/external/rust/crates/zerocopy" />
   <project path="external/rust/crates/zerocopy-derive" name="platform/external/rust/crates/zerocopy-derive" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"
     clone-depth="1" revision="u-boot-mainline" />
