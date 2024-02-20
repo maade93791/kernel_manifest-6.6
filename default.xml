@@ -16,6 +16,7 @@
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader">
     <linkfile src="." dest=".source_date_epoch_dir" />
     <linkfile src="gbl/bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="build/kernel" name="kernel/build" >
