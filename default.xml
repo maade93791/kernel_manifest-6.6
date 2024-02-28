@@ -10,8 +10,6 @@
     <linkfile src="kleaf/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="kleaf/bzlmod/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
-    <linkfile src="kleaf/bzlmod/default_kernel_toolchain_ext.bzl" dest="build/kernel_toolchain_ext.bzl" />
-    <linkfile src="kleaf/bzlmod/empty_BUILD.bazel" dest="build/BUILD.bazel" />
     <linkfile src="build_test.sh" dest="build/build_test.sh" />
     <linkfile src="config.sh" dest="build/config.sh" />
     <linkfile src="multi-switcher.sh" dest="build/multi-switcher.sh" />
