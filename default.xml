@@ -14,26 +14,32 @@
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader">
-    <linkfile src="." dest=".source_date_epoch_dir" />
+    <linkfile src="gbl/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="gbl/bazel.WORKSPACE" dest="WORKSPACE" />
-    <linkfile src="gbl/bazel.bazelrc" dest=".bazelrc" />
+    <linkfile src="gbl/bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
+    <linkfile src="gbl/bazel.bazelrc" dest="device.bazelrc" />
+    <linkfile src="gbl/build.config.constants" dest="common/build.config.constants" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
+    <linkfile src="kleaf/bzlmod/empty_BUILD.bazel" dest="common/BUILD.bazel" />
   </project>
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" revision="main" />
   <project path="external/avb" name="platform/external/avb" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
+  <project path="external/bazelbuild-apple_support" name="platform/external/bazelbuild-apple_support" />
+  <project path="external/bazelbuild-bazel-central-registry" name="platform/external/bazelbuild-bazel-central-registry" revision="main-kernel" />
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" />
+  <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" />
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" />
+  <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="main" />
   <project path="external/dtc" name="platform/external/dtc" revision="main" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/googletest" name="platform/external/googletest" />
-  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
-  <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" />
   <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" />
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" />
@@ -71,7 +77,6 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/ndk-r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
