@@ -14,13 +14,12 @@
   <project path="common" name="kernel/common" revision="android14-6.1-2024-03" upstream="android14-6.1-2024-03" dest-branch="android14-6.1-2024-03" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="e8a2f7ab2ba83ecbb5e86336bfe464f6150ad237" upstream="android14-6.1" dest-branch="android14-6.1" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="5153d3dae21c0b58aa5797836003f7609ed90dc3" upstream="android14-6.1" dest-branch="android14-6.1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="ffcc21293cbc8cfdf2d402e8f5b0647945e1dc73" upstream="main-kernel" dest-branch="main-kernel" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
@@ -29,7 +28,6 @@
 
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
-  <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" revision="bdd24099a80555ff8a4441e8bb47f4c7cfe413f8" upstream="main" dest-branch="main" />
   <project path="external/stardoc" name="platform/external/stardoc" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" />
 </manifest>
