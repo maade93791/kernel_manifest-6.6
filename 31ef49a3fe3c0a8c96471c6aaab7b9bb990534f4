@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9fae5204_952a1598",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-03-15T19:27:58Z",
+      "side": 1,
+      "message": "I assume this project contains kernel module code, right?\n\nIn that case, it should probably use the branch android-mainline to signify that the module builds with mainline kernel. The \"main\" here may easily be confused with the other projects with \"main\" revision like build/kernel, prebuilts/, external/, etc., which are \"tooling\" projects and does not contain real kernel module code. Here, it should align with what common-modules/virtual-device is doing",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
