@@ -213,6 +213,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5aad05c1_14ee3a21",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-03-20T23:12:07Z",
+      "side": 1,
+      "message": "It shouldn\u0027t be a problem to move the Trusty drivers to a `common-android-mainline` branch, but it probably makes sense to decide the repository location first: if it\u0027s `google-modules/trusty` or `common-modules/trusty`.",
+      "parentUuid": "c90e55fd_ecc4e47b",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
