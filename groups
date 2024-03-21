@@ -2,3 +2,4 @@
 #
 702ecdd8d5457e00099acb88d04c4e33810093a2	kernel-release
 faae02fd2948e284e5b96cc93ef27aa2c4ae533d	ARCVM Approvers
+mdb:android-kernel-release              	mdb/android-kernel-release
