@@ -237,6 +237,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd15f8a5_3b9d14f1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-03-26T22:40:26Z",
+      "side": 1,
+      "message": "\u003e the developer knows that it should create an android16-6.6 branch for this project\n\nUpdate from offline discussions: we would like to avoid this, and only maintain a single branch of these modules for all kernel versions (keeping them backwards compatible using `LINUX_VERSION_CODE` checks, we have a few of those already). Would that be possible somehow? It\u0027s less effort to keep a single branch backwards-compatible, than it would be to back-port every new patch to N old branches.",
+      "parentUuid": "5aad05c1_14ee3a21",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
