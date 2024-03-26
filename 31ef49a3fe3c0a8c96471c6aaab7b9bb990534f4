@@ -261,6 +261,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57807e56_9d20b4f8",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-03-26T23:34:21Z",
+      "side": 1,
+      "message": "Then perhaps:\n\n- Add a android-mainline branch for this project\n- Do not add android15-6.6 etc. branches\n- Put it in the android-mainline kernel/manifest, possibly with a comment that this project should only be built against mainline.\n\n@maennich@google.com for visibility",
+      "parentUuid": "cd15f8a5_3b9d14f1",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
