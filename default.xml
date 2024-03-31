@@ -77,5 +77,6 @@
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" />
+  <project path="system/core" name="platform/system/core" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 </manifest>
