@@ -12,13 +12,13 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="uefi-gbl-mainline"/>
   <contactinfo bugurl="go/repo-bug" />
-
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader">
     <linkfile src="gbl/bazel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="gbl/bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="gbl/bazel.bazelrc" dest="device.bazelrc" />
     <linkfile src="gbl/build.config.constants" dest="common/build.config.constants" />
   </project>
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
   <project path="build/kernel" name="kernel/build" >
     <linkfile src="kleaf/bazel.sh" dest="tools/bazel" />
