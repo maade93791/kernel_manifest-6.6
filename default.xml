@@ -40,8 +40,6 @@
   <project path="external/swig" name="platform/external/swig" revision="main" />
   <project path="external/zlib" name="platform/external/zlib" revision="main" />
   <project path="u-boot" name="platform/external/u-boot" revision="main">
-    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
-    <linkfile src="bazel.WORKSPACE.bzlmod" dest="WORKSPACE.bzlmod" />
     <linkfile src="build.config.constants" dest="common/build.config.constants" />
     <linkfile src="device.bazelrc" dest="device.bazelrc" />
   </project>
