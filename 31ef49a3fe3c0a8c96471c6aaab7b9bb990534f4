@@ -500,6 +500,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf2a6224_9bcddff2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-04-17T22:36:16Z",
+      "side": 1,
+      "message": "Sorry for being late to the party here. I somehow missed to publish this comment:\n\nNote, if you commit to keep `main` compatible to all branches, that also includes _all_ release branches. And once we transition with android15 main-\u003emain-kernel-build-2024, this repository would be the only one staying on `main` and hence becomes the odd one out. I have a preference for introducing android-mainline and android15-6.6 etc. branches. Just like the virtual modules do. That way all kernel code follows the android* branch naming while all tooling stays on `main`. Even if you use automerger to feed the downstream (android-mainline -\u003e android15-6.6) for the time being until you decide not to port things back automatically.",
+      "parentUuid": "3fe161cc_05e0568b",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
