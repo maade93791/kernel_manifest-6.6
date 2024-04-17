@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34ea09dd_23ef325d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1981286
+      },
+      "writtenOn": "2024-04-17T08:56:59Z",
+      "side": 1,
+      "message": "I don\u0027t know how relevant the ValidateManifest warnings are",
+      "revId": "46b0b7f19144711ba0c751d6c1825a8f520807b2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
