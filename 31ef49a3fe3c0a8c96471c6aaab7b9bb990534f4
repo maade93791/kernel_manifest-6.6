@@ -524,6 +524,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a0a4f18_99264105",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-04-17T22:55:00Z",
+      "side": 1,
+      "message": "Pinging @arve@android.com for visibility.\n\nThe plan was to have one set of Trusty modules that work across all kernel versions, on a single branch. An automerger setup might take care of that, but then it would just be N identical copies of the same branch. We really don\u0027t want those to diverge though.",
+      "parentUuid": "cf2a6224_9bcddff2",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
