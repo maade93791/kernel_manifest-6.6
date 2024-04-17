@@ -548,6 +548,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c8c3d41_c7dc1672",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-04-17T23:45:43Z",
+      "side": 1,
+      "message": "I understand your ideal state and I see how this minimizes maintainability. Yet, if you ever run into issues there, you would need to pin the manifests for several branches, which is the worst possible way to fix all the branches. And there are a lot of kernel release branches and their manifests to consider.\n\nAutomerger would silently do the work in the background to keep things in sync without additional work. But it would also bring you into the position to (temporarily) diverge if needed.\n\nLastly, using android-mainline, android15-6.6 names would make things consistent and maintainable without exceptions in the long run.",
+      "parentUuid": "9a0a4f18_99264105",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
