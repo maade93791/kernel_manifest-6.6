@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fba2391a_c42b9292",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-04-17T22:37:11Z",
+      "side": 1,
+      "message": "Please await aosp/3000145 to land for mainline.",
+      "revId": "8fcef997bc078a0fec6f0fe83b76a6bfc86fcfb0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
