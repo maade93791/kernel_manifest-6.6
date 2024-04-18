@@ -620,6 +620,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a65f1fc3_eb0eba57",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-04-18T10:03:32Z",
+      "side": 1,
+      "message": "What android branch names are you referring to?\n\nto give you an idea of the branch names in use:\n\n```\ncommon-android-mainline\n -\u003e common: android-mainline\n -\u003e common-modules/virtual-device: android-mainline\n -\u003e build tools (such as kernel/build): main\n -\u003e prebuilts (main-kernel, reduced checkout sizes)\n\ncommon-android15-6.6\n (now)\n -\u003e common: android15-6.6\n -\u003e common-modules/virtual-device: android15-6.6\n -\u003e build tools (such as kernel/build): main\n -\u003e prebuilts (main-kernel, reduced checkout sizes)\n \n (after KMI freeze):\n -\u003e common: android15-6.6\n -\u003e common-modules/virtual-device: android15-6.6\n -\u003e build tools (such as kernel/build): main-kernel-build-2024\n -\u003e prebuilts: main-kernel-build-2024\n \ncommon-android14-6.1\n -\u003e common: android14-6.1\n -\u003e common-modules/virtual-device: android14-6.1\n -\u003e everything else: main-kernel-build-2023\n \ncommon-android14-6.1-2023-12 (example release branch):\n -\u003e common: android14-6.1-2023-12\n -\u003e common-modules/virtual-device: android14-6.1\n -\u003e everything else: main-kernel-build-2023\n\n```\n\nSo, I believe `common-modules/trusty` fits quite well into the scheme that `common-modules/virtual-device` uses. Is that not acceptable? Literally this creates 2 branches per year (as of android15 _one_ branch as we retire `android15-6.1` and only keep `android15-6.6`)\n\nSo, all you need for this setup is \n\n```\nrepo: common-modules/trusty ... with branches:\n  - android-mainline (your main branch for development)\n    -\u003e (automerged into) android15-6.6\n    -\u003e (automerged into) android14-6.1   (i/a)\n    -\u003e (automerged into) android14-5.15  (i/a)\n```\n\nThat way the naming remains consistent, there is hardly any overhead and we remain \"patchable\". What do you think?",
+      "parentUuid": "7c4a1b2b_6bcbe2ab",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
