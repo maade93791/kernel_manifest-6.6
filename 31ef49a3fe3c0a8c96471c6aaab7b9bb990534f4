@@ -572,6 +572,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b30310c_f0436424",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-04-18T00:00:44Z",
+      "side": 1,
+      "message": "s/minimizes maintainability/minimizes maintainability **costs**/",
+      "parentUuid": "9c8c3d41_c7dc1672",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
