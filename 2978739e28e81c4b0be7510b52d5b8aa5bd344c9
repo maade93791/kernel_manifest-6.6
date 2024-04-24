@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfa278e6_8f5945e0",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-04-24T14:31:30Z",
+      "side": 1,
+      "message": "you also need zlib",
+      "revId": "2978739e28e81c4b0be7510b52d5b8aa5bd344c9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
