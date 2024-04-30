@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae83356d_0115c4cc",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1279898
+      },
+      "writtenOn": "2024-04-30T17:14:56Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "265490c0_85d50df5",
+      "range": {
+        "startLine": 6,
+        "startChar": 67,
+        "endLine": 6,
+        "endChar": 90
+      },
+      "revId": "61c2afb7fc49b89218f070f00c990799c32da78f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "490200ec_4bbfd762",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-04-30T17:13:44Z",
       "side": 1,
       "message": "```suggestion\n  \u003cproject path\u003d\"build/kernel\" name\u003d\"kernel/build\" groups\u003d\"ddk\" revision\u003d\"main-riscv64\" \u003e\n```",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 101
+      },
+      "revId": "61c2afb7fc49b89218f070f00c990799c32da78f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47484e1e_486190a6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1279898
+      },
+      "writtenOn": "2024-04-30T17:14:56Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "490200ec_4bbfd762",
       "range": {
         "startLine": 8,
         "startChar": 0,
