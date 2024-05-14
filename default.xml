@@ -14,7 +14,7 @@
   <project path="common" name="kernel/common" revision="android14-6.1-2024-05" upstream="android14-6.1-2024-05" dest-branch="android14-6.1-2024-05" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="fcaff096cf4c1402069c1cdd4ed4c996477d9374" upstream="android14-6.1" dest-branch="android14-6.1" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="41f61eaceb6feb8bc0a55e7e280c84b3d7394fba" upstream="android14-6.1" dest-branch="android14-6.1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
