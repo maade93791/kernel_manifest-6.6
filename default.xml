@@ -1,63 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="android-gs-raviole-mainline" remote="aosp" sync-j="4" />
+  <remote name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/"/>
+  <default remote="aosp" revision="android-gs-raviole-mainline" sync-j="4"/>
 
-  <superproject name="kernel/superproject" remote="aosp" revision="gs-android-gs-raviole-mainline" />
+  <superproject name="kernel/superproject" revision="gs-android-gs-raviole-mainline"/>
 
-  <project path="common" name="kernel/common" remote="aosp" revision="cb4cf525e1279a8fed18e08c8c12b133f4e6733e" />
-
-  <project path="private/google-modules/soc/gs" name="kernel/google-modules/raviole-device" >
-    <linkfile src="build_slider.sh" dest="build_slider.sh" />
+  <project name="kernel/build" path="build/kernel" revision="5733bb63c63c270ea71e6409ca2d8f15bf0a099e" >
+    <linkfile src="kleaf/bazel.sh" dest="tools/bazel"/>
+    <linkfile src="kleaf/bzlmod/bazel.MODULE.bazel" dest="MODULE.bazel"/>
   </project>
-
-  <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" />
-  <project path="private/google-modules/aoc" name="kernel/google-modules/aoc" />
-  <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" />
-  <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" />
-  <project path="private/google-modules/bms" name="kernel/google-modules/bms" />
-  <project path="private/google-modules/display" name="kernel/google-modules/display" />
-  <project path="private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" />
-  <project path="private/google-modules/gpu" name="kernel/google-modules/gpu" />
-  <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" />
-  <project path="private/google-modules/power/reset" name="kernel/google-modules/power/reset" />
-  <project path="private/google-modules/touch/common" name="kernel/google-modules/touch/common" />
-  <project path="private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" />
-  <project path="private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" />
-  <project path="private/google-modules/uwb" name="kernel/google-modules/uwb" />
-  <project path="private/google-modules/nfc" name="kernel/google-modules/nfc" />
-  <project path="private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" />
-  <project path="private/google-modules/trusty" name="kernel/google-modules/trusty" />
-  <project path="private/google-modules/video/gchips" name="kernel/google-modules/video/gchips" />
-
-  <project path="prebuilts/boot-artifacts" name="platform/prebuilts/boot-artifacts" clone-depth="1" />
-
-  <project path="build/kernel" name="kernel/build" revision="95a6deab185ce3ea691f65fd1caf9ae96f0ae8fb" >
-    <linkfile dest="tools/bazel" src="kleaf/bazel.sh" />
-    <linkfile dest="WORKSPACE" src="kleaf/bazel.WORKSPACE" />
-    <linkfile dest="build/build.sh" src="build.sh" />
-    <linkfile dest="build/build_abi.sh" src="build_abi.sh" />
-    <linkfile dest="build/build_test.sh" src="build_test.sh" />
-    <linkfile dest="build/build_utils.sh" src="build_utils.sh" />
-    <linkfile dest="build/config.sh" src="config.sh" />
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
-    <linkfile dest="build/_setup_env.sh" src="_setup_env.sh" />
-    <linkfile dest="build/multi-switcher.sh" src="multi-switcher.sh" />
-    <linkfile dest="build/abi" src="abi" />
-    <linkfile dest="build/static_analysis" src="static_analysis" />
+  <project name="kernel/common" path="common" revision="830a3b57edc6814ba9a50d25f1a504b3e50b9b38" />
+  <project name="kernel/configs" revision="7de932a4b942d7e7677b0116a2e257e050163bb9" />
+  <project name="kernel/google-modules/amplifiers" path="private/google-modules/amplifiers" />
+  <project name="kernel/google-modules/aoc" path="private/google-modules/aoc" />
+  <project name="kernel/google-modules/aoc-ipc" path="private/google-modules/aoc_ipc" />
+  <project name="kernel/google-modules/bluetooth/broadcom" path="private/google-modules/bluetooth/broadcom" />
+  <project name="kernel/google-modules/bms" path="private/google-modules/bms" />
+  <project name="kernel/google-modules/display" path="private/google-modules/display" />
+  <project name="kernel/google-modules/edgetpu/abrolhos" path="private/google-modules/edgetpu/abrolhos" />
+  <project name="kernel/google-modules/gpu" path="private/google-modules/gpu" />
+  <project name="kernel/google-modules/lwis" path="private/google-modules/lwis" />
+  <project name="kernel/google-modules/nfc" path="private/google-modules/nfc" />
+  <project name="kernel/google-modules/power/reset" path="private/google-modules/power/reset" />
+  <project name="kernel/google-modules/raviole-device" path="private/google-modules/soc/gs" >
+    <linkfile src="build_slider.sh" dest="build_slider.sh"/>
+    <linkfile src="device.bazelrc" dest="device.bazelrc"/>
   </project>
-  <project path="kernel/configs" name="kernel/configs" revision="0606f4897ce9b5c05d0b9917ff07b7972e89af49" clone-depth="1"/>
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="14e78952c40ea8a37e245941dd74352e2663ae26" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="50717cd9ae1e4033181730a6721fd5c16f376107" clone-depth="1" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" revision="e4a83eafd4d08e8c2626185e2d0b47c1729d56a1" clone-depth="1" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="354c017f1560395501e501e271ef279d243c6982" clone-depth="1" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="e905be252a53d20c52bd9e59df3ff8fdd46b9eab" clone-depth="1" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" revision="c528e6732a55b2dc80970618ca17acd82950996d" clone-depth="1" />
-  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" revision="a8a8c808f39d1ba2685d5ba2644a66f41f77bd64" />
-  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" revision="f8aadd2ad5a51ac3187333bf589a754c5347d447" clone-depth="1" />
-  <project path="external/stardoc" name="platform/external/stardoc" revision="85b0f239303220d902ad919ff27d2da475fc12e2" clone-depth="1" />
-  <project path="external/python/absl-py" name="platform/external/python/absl-py" revision="bd7cdd4d3776c9d08bbfea96d711958b24a9fe9c" clone-depth="1" />
-  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" revision="4c41a32375cb09f83e986d4b5f93a913b8a1ffac" />
-  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" revision="693f66f5b66785894a83c0e2d0eeab01138faf94" />
-  <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1" revision="19ac7e4eded12adb99d4f613490dde6dd0e72664" />
+  <project name="kernel/google-modules/touch/common" path="private/google-modules/touch/common" />
+  <project name="kernel/google-modules/touch/fts_touch" path="private/google-modules/touch/fts" />
+  <project name="kernel/google-modules/touch/sec_touch" path="private/google-modules/touch/sec" />
+  <project name="kernel/google-modules/trusty" path="private/google-modules/trusty" />
+  <project name="kernel/google-modules/uwb" path="private/google-modules/uwb" />
+  <project name="kernel/google-modules/video/gchips" path="private/google-modules/video/gchips" />
+  <project name="kernel/google-modules/wlan/bcmdhd/bcm4389" path="private/google-modules/wlan/bcmdhd4389" />
+
+  <project name="platform/prebuilts/boot-artifacts" path="prebuilts/boot-artifacts" clone-depth="1"/>
+
+  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" revision="30e9944f67e1ec4b9236b55060558a43a049c5c4" clone-depth="1"/>
+  <project name="platform/build/bazel_common_rules" path="build/bazel_common_rules" revision="212bca45fa9e280adc98081483f649814baf4b61" />
+  <project name="platform/external/bazel-skylib" path="external/bazel-skylib" revision="6b103c40d8113f001475d5e13672922ef2aa0e5a" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-apple_support" path="external/bazelbuild-apple_support" revision="f6003e1e3763f8aad9fb9acae79cfa5fff9ae988" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-bazel-central-registry" path="external/bazelbuild-bazel-central-registry" revision="3422f064566c274ea66633442521704d4a22486d" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-platforms" path="external/bazelbuild-platforms" revision="e352aabd0131f3ac3f340282a43ba85ffc3fe8fa" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_cc" path="external/bazelbuild-rules_cc" revision="5d626dcf48e0e97933b48456a86966971799c9e9" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_java" path="external/bazelbuild-rules_java" revision="8e548c7053dffd1717d565f0409a88992f401da1" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_license" path="external/bazelbuild-rules_license" revision="f578df4fd057ffe2023728444759535685631548" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_pkg" path="external/bazelbuild-rules_pkg" revision="632ab98c81cf295750dc096142d4ca76264084bc" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_python" path="external/bazelbuild-rules_python" revision="f71847ac898655b67634bb14e77a7408c4fb5e00" clone-depth="1"/>
+  <project name="platform/external/bazelbuild-rules_rust" path="external/bazelbuild-rules_rust" revision="1520b49835be9122c2424231357d4db80069cc38" clone-depth="1"/>
+  <project name="platform/external/libcap" path="external/libcap" revision="8729338c078737da57a8b63ee88016799dfb4cdb" clone-depth="1"/>
+  <project name="platform/external/libcap-ng" path="external/libcap-ng" revision="2bcc92ae19481dd2b8d3ce3abdfbbee49261abe6" clone-depth="1"/>
+  <project name="platform/external/pigz" path="external/pigz" revision="9bc9fa17d499ddde88b77820f6d063e16c0cdd42" clone-depth="1"/>
+  <project name="platform/external/python/absl-py" path="external/python/absl-py" revision="9ae5a78fc57c3cd539398373ae39601a8b923e62" clone-depth="1"/>
+  <project name="platform/external/stardoc" path="external/stardoc" revision="f31250f9f5b03834d9964aaee7a3794c1d73d4a2" clone-depth="1"/>
+  <project name="platform/external/zlib" path="external/zlib" revision="b34cd2e4371556e913ad9801a924a891c74d1463" clone-depth="1"/>
+  <project name="platform/external/zopfli" path="external/zopfli" revision="36c79f00e5229800d2aaa13fc42c301ec8ef1153" clone-depth="1"/>
+  <project name="platform/prebuilts/bazel/linux-x86_64" path="prebuilts/bazel/linux-x86_64" revision="5c92123af5646d469fc53ef61994f5bca0306f66" clone-depth="1"/>
+  <project name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="5c0b50c49d7c958c05cd3050e43f4772003df800" clone-depth="1"/>
+  <project name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="1634c6a556d1f2c24897bf74156c6449486e8941" clone-depth="1"/>
+  <project name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="09c7583143309378bfb91ee54174c87da496b6ab" clone-depth="1"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="739d8a41b6096d384338a62995a04739aff8693d" clone-depth="1"/>
+  <project name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="c6c90521b7c317f13d41bbd9336a8d45ee202cec" clone-depth="1"/>
+  <project name="platform/prebuilts/misc" path="prebuilts/misc" revision="9069413f024ef9fbdf6cb78b6afe82e76cf7027d" clone-depth="1"/>
+  <project name="platform/prebuilts/rust" path="prebuilts/rust" revision="e726db6bc2f2ca22326f58a49ad7f1c28c8a64ea" clone-depth="1"/>
+  <project name="platform/system/tools/mkbootimg" path="tools/mkbootimg" revision="f5c284e8998dd8a085cf027bb518b6c2b84cf744" clone-depth="1"/>
+  <project name="toolchain/prebuilts/ndk/r26" path="prebuilts/ndk-r26" revision="e535051ebc04204cec44bde38f62385d63180388" clone-depth="1"/>
+
 </manifest>
