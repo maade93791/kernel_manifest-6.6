@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--
+    This branch is a main side branch and is configured to have all project
+    specific rules. When updating this manifest file, please also update the
+    project rule in google3 to ensure new projects get testing.
+    See go/side-branch-testing for details.
+-->
+  <remote  name="aosp" fetch="persistent-https://android.git.corp.google.com/" review="https://android-review.googlesource.com/" />
+  <default revision="main" remote="aosp" sync-j="4" />
+
+  <contactinfo bugurl="go/repo-bug" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" />
+  <project path="lk" name="kernel/lk">
+    <linkfile src="bazel.sh" dest="tools/bazel" />
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+  </project>
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+</manifest>
