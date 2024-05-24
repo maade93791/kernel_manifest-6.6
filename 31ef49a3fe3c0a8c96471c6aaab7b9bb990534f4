@@ -668,6 +668,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44a9ad2e_52fb158b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-05-24T21:26:23Z",
+      "side": 1,
+      "message": "To be honest, I am not sure introducing yet another branching namespace will help readability or consistency. As it stands, the kernel manifests have already two for kernel code (android* branches) and dependencies shared with the android platform (main).\n\nI suppose you are also suggesting `main` for the common-android-mainline branch? Or would this be `main-trusty`?\n\nLikely `main` will also introduce a pitfall as all branches `main` fork off into `main-kernel-build-2024` via default directive and partners need to adopt that correctly.\n\nAdditionally, android15-6.6 is going to be the only android15 branch and the only one in 2024, so it is safe to just also pick `android-mainline` and `android15-6.6` as names for the yearly branches as well.\n\nSorry for being picky, my interest is to not create confusion or (more) inconsistency in the manifest definition.\n\nWith automerger in place as suggested earlier:\n\n```\nrepo: common-modules/trusty ... with branches:\n  - android-mainline (your main branch for development)\n    -\u003e (automerged into) android15-6.6\n    -\u003e (automerged into) android14-6.1   (i/a)\n    -\u003e (automerged into) android14-5.15  (i/a)\n```\n\nThis ensures fixes flow, names are consistent, names correspond to their respective kernel/common branch names (despite the intention of being agnostic) and the entire setup does not create more overhead for our team, for you or for downstream users.",
+      "parentUuid": "b973c8d5_eae603c7",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
