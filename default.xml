@@ -17,9 +17,9 @@
       <linkfile src="android-mainline" dest="common/patches" />
   </project>
   <project path="kernel/tests" name="kernel/tests" />
-  <project path="kernel/configs" name="kernel/configs" revision="7de932a4b942d7e7677b0116a2e257e050163bb9" upstream="main" dest-branch="main" />
-  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="611e6e682bed8dc73bdc3d12b23224ee91c4a543" upstream="android15-6.6" dest-branch="android15-6.6" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="09c7583143309378bfb91ee54174c87da496b6ab" clone-depth="1" groups="ddk" upstream="main-kernel" dest-branch="main-kernel" />
+  <project path="kernel/configs" name="kernel/configs" revision="89100aa046a9c21d07d7cb6d1836300765267636" upstream="main" dest-branch="main" />
+  <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="f6331c60a488b65a61ad231ef802350d45a6c2a4" upstream="android15-6.6" dest-branch="android15-6.6" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" revision="790c905dc146ddb4b7181196c7437dd3bac6cfaf" clone-depth="1" groups="ddk" upstream="main-kernel" dest-branch="main-kernel" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="ddk" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="ddk" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
