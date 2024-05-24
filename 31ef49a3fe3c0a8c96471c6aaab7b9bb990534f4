@@ -692,6 +692,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fb22e10_66dfaeab",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-05-24T22:02:01Z",
+      "side": 1,
+      "message": "Alright, so the options would be either e.g. `android15-6.6` or `main-kernel-build-2024`? It\u0027s a bit awkward for Trusty to use the latter. The android branches should work since there\u0027s one per year, @arve@android.com wdyt?",
+      "parentUuid": "44a9ad2e_52fb158b",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
