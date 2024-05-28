@@ -764,6 +764,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e1f9ec61_1a501caa",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000205
+      },
+      "writtenOn": "2024-05-28T23:08:29Z",
+      "side": 1,
+      "message": "I\u0027m not indifferent, I said we could use the same branch names you use for the build tools. I do not want a branch per Linux kernel version for the trusty modules. The trusty modules support multiple kernel versions. If we have a branch per kernel version, we will not get presubmit checks against all the kernel versions we support.",
+      "parentUuid": "4e3eed09_4012f439",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
