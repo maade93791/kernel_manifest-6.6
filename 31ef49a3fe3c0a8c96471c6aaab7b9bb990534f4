@@ -740,6 +740,30 @@
       },
       "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e3eed09_4012f439",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-05-28T15:24:42Z",
+      "side": 1,
+      "message": "Since you seem to be indifferent between the options or otherwise do not respond to the arguments I brought up, as an owner of the kernel/manifest I will make this decision:\n\nFor the kernel/manifest branch `common-android-mainline`, please provide a git branch `android-mainline` of the trusty drivers (kernel/common-modules/trusty). For `common-android15-6.6`, please provide a git branch `android15-6.6` for the trusty drivers (kernel/common-modules/trusty). Similarly for all older branches.\n\nI leave it up to you how those branches are maintained, but following the discussion, I stick to my automerger suggestion from above. Thanks!",
+      "parentUuid": "3837b5d9_648a6039",
+      "range": {
+        "startLine": 21,
+        "startChar": 86,
+        "endLine": 21,
+        "endChar": 90
+      },
+      "revId": "31ef49a3fe3c0a8c96471c6aaab7b9bb990534f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
