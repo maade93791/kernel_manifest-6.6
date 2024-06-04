@@ -55,4 +55,5 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="ddk"/>
 
   <project path="test/dittosuite" name="platform/test/dittosuite"/>
+  <project path="test/ltp" name="platform/external/ltp"/>
 </manifest>
