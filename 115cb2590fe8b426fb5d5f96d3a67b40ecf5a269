@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5aec4eae_f2b897c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2029650
+      },
+      "writtenOn": "2024-06-05T06:07:43Z",
+      "side": 1,
+      "message": "@zyecheng@google.com\nIs this a correct branch for adding dependency for GBL?",
+      "revId": "115cb2590fe8b426fb5d5f96d3a67b40ecf5a269",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
