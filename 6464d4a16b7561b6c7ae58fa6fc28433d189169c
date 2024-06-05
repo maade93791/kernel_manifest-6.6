@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e092578_91a0b5df",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000205
+      },
+      "writtenOn": "2024-06-05T14:11:42Z",
+      "side": 1,
+      "message": "I think this comment can be removed. Trusty modules can use the default revision like most of the other repos imported here.",
+      "revId": "6464d4a16b7561b6c7ae58fa6fc28433d189169c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
