@@ -16,6 +16,47 @@
       "message": "@zyecheng@google.com\nIs this a correct branch for adding dependency for GBL?",
       "revId": "115cb2590fe8b426fb5d5f96d3a67b40ecf5a269",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a47e657c_966d074c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2024-06-05T17:34:54Z",
+      "side": 1,
+      "message": "Yes this is the right one.",
+      "parentUuid": "5aec4eae_f2b897c2",
+      "revId": "115cb2590fe8b426fb5d5f96d3a67b40ecf5a269",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ab2b826_cb6fdf99",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2029640
+      },
+      "writtenOn": "2024-06-05T17:34:54Z",
+      "side": 1,
+      "message": "nit: Alphabetical order.",
+      "range": {
+        "startLine": 61,
+        "startChar": 2,
+        "endLine": 62,
+        "endChar": 92
+      },
+      "revId": "115cb2590fe8b426fb5d5f96d3a67b40ecf5a269",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
