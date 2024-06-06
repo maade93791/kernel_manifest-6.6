@@ -16,6 +16,23 @@
       "message": "Please await aosp/3000145 to land for mainline.",
       "revId": "8fcef997bc078a0fec6f0fe83b76a6bfc86fcfb0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a078d50_fb62dadf",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000205
+      },
+      "writtenOn": "2024-06-06T12:39:25Z",
+      "side": 1,
+      "message": "I think this comment should be removed or updated. Trusty modules can use the default revision.",
+      "revId": "8fcef997bc078a0fec6f0fe83b76a6bfc86fcfb0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
