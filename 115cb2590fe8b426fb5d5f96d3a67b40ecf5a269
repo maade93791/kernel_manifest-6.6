@@ -80,6 +80,54 @@
       },
       "revId": "115cb2590fe8b426fb5d5f96d3a67b40ecf5a269",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d5ed8f6_e943ba89",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2029650
+      },
+      "writtenOn": "2024-06-06T06:03:59Z",
+      "side": 1,
+      "message": "Created bug: b/345358952",
+      "parentUuid": "5d3885bc_96036dd0",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 92
+      },
+      "revId": "115cb2590fe8b426fb5d5f96d3a67b40ecf5a269",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a834db15_eb8b393b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2029650
+      },
+      "writtenOn": "2024-06-06T06:03:59Z",
+      "side": 1,
+      "message": "I\u0027ve put them in order, but there are other entries that are unordered. Not sure if we should rearrange all of them.",
+      "parentUuid": "6ab2b826_cb6fdf99",
+      "range": {
+        "startLine": 61,
+        "startChar": 2,
+        "endLine": 62,
+        "endChar": 92
+      },
+      "revId": "115cb2590fe8b426fb5d5f96d3a67b40ecf5a269",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
