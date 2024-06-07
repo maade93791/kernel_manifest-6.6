@@ -16,6 +16,24 @@
       "message": "Update the message?",
       "revId": "b86cac08450523aaf95b1fc2052c658e686b0be3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2ed3cdc_dda014d0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1112968
+      },
+      "writtenOn": "2024-06-07T19:35:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04c89889_6feb866e",
+      "revId": "b86cac08450523aaf95b1fc2052c658e686b0be3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
