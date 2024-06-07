@@ -34,6 +34,24 @@
       "parentUuid": "9e092578_91a0b5df",
       "revId": "6464d4a16b7561b6c7ae58fa6fc28433d189169c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cee6b83e_7a5c2d08",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1112968
+      },
+      "writtenOn": "2024-06-07T19:22:18Z",
+      "side": 1,
+      "message": "Done, but I can no longer push revisions here. Abandoning in favor of aosp/3120411.",
+      "parentUuid": "b890e49a_1f5bd318",
+      "revId": "6464d4a16b7561b6c7ae58fa6fc28433d189169c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
