@@ -45,7 +45,6 @@
   <project path="external/bazelbuild-rules_python" name="platform/external/bazelbuild-rules_python" groups="ddk-external" />
   <project path="external/bazelbuild-rules_rust" name="platform/external/bazelbuild-rules_rust" groups="ddk-external" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" groups="ddk-external" />
-  <project path="external/stardoc" name="platform/external/stardoc" />
 
   <!-- dependencies used to build toolchain from sources -->
   <project path="external/lz4" name="platform/external/lz4" groups="ddk"/>
