@@ -16,6 +16,24 @@
       "message": "I think this comment can be removed. Trusty modules can use the default revision like most of the other repos imported here.",
       "revId": "6464d4a16b7561b6c7ae58fa6fc28433d189169c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b890e49a_1f5bd318",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1402878
+      },
+      "writtenOn": "2024-06-07T15:39:48Z",
+      "side": 1,
+      "message": "Yes, please.",
+      "parentUuid": "9e092578_91a0b5df",
+      "revId": "6464d4a16b7561b6c7ae58fa6fc28433d189169c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
