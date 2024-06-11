@@ -16,6 +16,24 @@
       "message": "An agreement has been reached on the branching structure for the Trusty modules, so this can land?",
       "revId": "576a6f4eca044a12e4f6d26e9b39eda1eed00fd7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35e61c43_5142d173",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121838
+      },
+      "writtenOn": "2024-06-11T20:05:15Z",
+      "side": 1,
+      "message": "FTR this is the previous discussion https://android-review.git.corp.google.com/c/kernel/manifest/+/3000145/comment/9fae5204_952a1598/",
+      "parentUuid": "4d01520e_d9834a95",
+      "revId": "576a6f4eca044a12e4f6d26e9b39eda1eed00fd7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
